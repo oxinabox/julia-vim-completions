@@ -1,17 +1,18 @@
+Note: this repo is full of experimental and unmaintained code.
+The jltag based Deoplete/Neovim completions have now been peeled off and forked [into it's own repo](https://github.com/JuliaEditorSupport/deoplete-julia).
+Which is actually usable, and maintained.
+You probably want to go there.
+
+
+
+
+
 # julia-vim-completions
 Julia doesn't have good VIM completions to my knowledge.
 You can get a little way using julia-vim, then turning on syntax competions based on highlighting.
 
 But we want more.
 In this repo that is being explored.
-
-Currently, the focus is on jltags, and through that deomplete based completions.
-It is actually working, but not wrapped up nicely enough to deploy -- will probably move it out of this repo soo, into its own.
-Check out the video of it working. (Click the image below)
-[![asciicast](https://asciinema.org/a/688g8iyhj1idrtz8ooptr6iso.png)](https://asciinema.org/a/688g8iyhj1idrtz8ooptr6iso)
-(Yes, I know that code is not actually correct. Recording demos is hard.)
-
-
 But there are other approaches
 
 ## YCM
